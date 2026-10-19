@@ -4,12 +4,12 @@
 
 A small, reproducible re-implementation of the two-stage recipe from [*Visual Instruction Tuning*](https://arxiv.org/abs/2304.08485) (LLaVA), built from **CLIP ViT-L/14-336** and **Llama-3.2-1B-Instruct** and trained on a single GPU.
 
-> The learning xperience behind this project (the mistakes, dead ends and fixes) is in [**ABOUT.md**](ABOUT.md).
+> The learning xperience behind this project (the mistakes, dead ends and fixes) is in [**blahblahblah.md**](blahblahblah.md).
 This file is the technical reference: what it is, how to run it, how to reproduce it, how to check that it works.
 > 
 - LLaVAMustBeCold —> Stage 1
 - LLaVAMustBeHot   —> Stage 2
-- LLaVAMustTell         —> Inference
+- LLaVAMustTell    —> Inference
 
 ---
 
@@ -156,7 +156,7 @@ Check the folder layout after unzipping (for example `data/coco/train2017/` vers
 - Python packages: `torch`, `transformers`, `peft`, `accelerate`, `huggingface_hub`, `safetensors`, `Pillow`, `tqdm`. TODO: pin the versions you actually used in `requirements.txt`.
 - Put data and checkpoints on a **persistent volume**, and decode images from extracted local files, not from a zip.
 
-### Stage 1: Projector Alignment (`models/LLaVAMustBeCold.py`)
+### Stage 1: Projector Alignment (`Scripts/LLaVAMustBeCold.py`)
 
 | Setting | Value |
 | --- | --- |
@@ -172,7 +172,7 @@ Check the folder layout after unzipping (for example `data/coco/train2017/` vers
 | Speed | About 1.4-1.7 it/s, roughly 2 hours |
 | Checkpoints | Every 512 micro-batches |
 
-### Stage 2: Instruction Tuning (`models/LLaVAMustBeHot.py`)
+### Stage 2: Instruction Tuning (`Scripts/LLaVAMustBeHot.py`)
 
 | Setting | Value |
 | --- | --- |

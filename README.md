@@ -11,6 +11,7 @@ This file is the technical reference: what it is, how to run it, how to reproduc
 - LLaVAMustBeHot   —> Stage 2
 - LLaVAMustTell    —> Inference
 
+- Weights can be found at - https://huggingface.co/datasets/KhanZaid-NL/LLaVA_Weights
 ---
 
 ## What this is

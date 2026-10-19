@@ -39,7 +39,7 @@ I have made it exist, now I have to make it beautiful. I cleansed all the debug 
 
 End Comparisons --->
 
-	                Paper	                         Mine
-LLM	             Vicuna 7B / 13B  	          Llama-3.2-1B-Instruct
-Stage 2 training     full LLM fine-tune	             LoRA + projector
-Hardware	     multi-GPU A100 servers     one RTX Pro 5000 (Blackwell, 47 GiB)
+	                                     Paper	                         Mine
+LLM	                                  Vicuna 7B / 13B  	          Llama-3.2-1B-Instruct
+Stage 2 training                    full LLM fine-tune	             LoRA + projector
+Hardware	                       multi-GPU A100 servers     one RTX Pro 5000 (Blackwell, 47 GiB)

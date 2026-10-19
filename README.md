@@ -4,7 +4,7 @@
 
 A small, reproducible re-implementation of the two-stage recipe from [*Visual Instruction Tuning*](https://arxiv.org/abs/2304.08485) (LLaVA), built from **CLIP ViT-L/14-336** and **Llama-3.2-1B-Instruct** and trained on a single GPU.
 
-> The learning xperience behind this project (the mistakes, dead ends and fixes) is in [**blahblahblah.md**](blahblahblah.md).
+> The learning experience behind this project (the mistakes, dead ends and fixes) is in [**blahblahblah.md**](blahblahblah.md).
 This file is the technical reference: what it is, how to run it, how to reproduce it, how to check that it works.
 > 
 - LLaVAMustBeCold —> Stage 1
